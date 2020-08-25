@@ -1,5 +1,4 @@
 # Nia Cortes Portfolio Site
-# niacortes.github.io
 
 ## Built with
 *Pure HTML, CSS and sweat. No additional requierements or setup other than a nice browser and access to Internet.*
@@ -8,7 +7,7 @@
 *Chrome Version 84, but really, any would suffice.*
 
 ## About branches 
-*Please refrain to copy my work, I would love to chat with you if can help you.*
+*Please refrain to copy my work, I would love to chat with you if I can help you.*
 
 ## Credits <a name="credits"></a>
 *Built & designed by Nia Cortes.*
