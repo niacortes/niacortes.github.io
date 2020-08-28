@@ -260,7 +260,6 @@ h5 {
 .link-btn {
   font: 400 1.5em 'Montserrat-SemiBold';
   letter-spacing: 0.03em;
-
 }
 .link-btn a {
   color: #5d7987;
@@ -320,6 +319,7 @@ h5 {
   padding: 1em 0;
   text-align: center;
   display: none;
+  color: #5d7987;
 }
 .social {
   text-align: center;
@@ -445,8 +445,6 @@ footer {
     h4 {
       font-size: 1.2em;
     }
-    h5 {
-    }
     nav {
         line-height: 2.5em;
     }
@@ -461,10 +459,16 @@ footer {
     }
 /*    Homepage */
     .project {
-        margin-bottom: 4em;
+      margin-bottom: 4em;
     }
     .project-info-mobile {
-        display: inline-block;
+      display: inline-block;
+    }
+    .link-btn, .secondary-btn {
+      font-size: 1.2em;
+    }
+    .social {
+      font-size: 1.6em;
     }
 /*    Project pages*/
     .banner-project {
