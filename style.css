@@ -13,8 +13,8 @@
   box-sizing: border-box;
 }
 html {
-  background-color: #fafafa;
-  color: #212121;
+    background-color: #fafafa;
+    color: #212121;
 }
 a {
     text-decoration: none;
@@ -30,14 +30,45 @@ p {
 font: 300 1.15em/1.4em 'Open Sans', Helvetica, sans-serif;
     letter-spacing: 0.03em;
 }
-
+/*Estilos Encabezados*/
+h1, .heading1 {
+    font: 300 4.5em/1.1em 'Raleway', Helvetica, Trebuchet, sans-serif;
+  color: #212121;
+}
+h2, .heading2 {
+    font: 300 1.8em/1.3em 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+  color: #212121;
+}
+h3, .heading3 {
+    font: 500 1.6em/1.2em 'Raleway', Helvetica, Trebuchet, sans-serif;
+  letter-spacing: 0.02em;
+  color: #212121;
+    margin-bottom: 0.3em;
+}
+h4 {
+    font: 300 1.6em/1.2em 'Raleway', Helvetica, Trebuchet, sans-serif;
+  letter-spacing: 0.02em;
+  color: #212121;
+    margin-bottom: 0.3em;
+}
+h5 {
+    font: 500 1.2em/1.3em 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+  color: #212121;
+}
 /*Contenido*/
 .container{
 }
 /*Menú*/
 nav {
-  letter-spacing: 0.05em;
+    width: 100%;
+    letter-spacing: 0.05em;
     padding: 2em;
+    position: fixed;
+    top: 0;
+    background-color: #fafafa;
+    z-index: 1;
 }
 .menu {
     float: right;
@@ -76,42 +107,14 @@ nav {
 }
 /*Intro*/
 .intro {
-margin: 104px 16% 120px;
+    margin: 0 16%;
+    padding-top: 12em;
 }
-/*Estilos Encabezados*/
-h1, .heading1 {
-    font: 300 4.5em/1.1em 'Raleway', Helvetica, Trebuchet, sans-serif;
-  color: #212121;
-}
-h2, .heading2 {
-    font: 300 1.8em/1.3em 'Open Sans', Helvetica, sans-serif;
-  letter-spacing: 0.01em;
-  color: #212121;
-}
-h3, .heading3 {
-    font: 500 1.6em/1.2em 'Raleway', Helvetica, Trebuchet, sans-serif;
-  letter-spacing: 0.02em;
-  color: #212121;
-    margin-bottom: 0.3em;
-}
-h4 {
-    font: 300 1.6em/1.2em 'Raleway', Helvetica, Trebuchet, sans-serif;
-  letter-spacing: 0.02em;
-  color: #212121;
-    margin-bottom: 0.3em;
-}
-h5 {
-    font: 500 1.2em/1.3em 'Open Sans', Helvetica, sans-serif;
-  letter-spacing: 0.01em;
-  color: #212121;
-}
-
 /*Skills*/
 .skills {
-margin: 0px 16% 120px;
- display: block;
-    overflow: hidden;
-    
+    margin: 10em 16%;
+    display: block;
+    overflow: hidden;  
 }
 .skill {
     float: left;
@@ -122,10 +125,11 @@ margin: 0px 16% 120px;
 
 /*Proyectos*/
 .projects {
-margin: 120px 24%;
+    margin: 0 24% 8em;
+    overflow: hidden;
 }
 .project {
-    margin-bottom: 72px;
+    margin-bottom: 4em;
 }
 .project-cover{
      display: inline-block;
@@ -171,7 +175,7 @@ font: 500 1.2em/1.4em 'Raleway', Helvetica, Trebuchet, sans-serif;
   cursor: pointer;
 }
 .nav-projects{
-    padding: 80px 20%;
+    padding: 4em 20%;
     background-color: #dfe0fe;
 }
 .next-btn {
@@ -182,7 +186,7 @@ font: 500 1.2em/1.4em 'Raleway', Helvetica, Trebuchet, sans-serif;
 }
 /*Páginas Proyectos*/
 .content {
-margin: 0 24% 7.5em;
+    margin: 8em 24%;
 }
 .details {
   margin-bottom: 2em;
@@ -234,21 +238,19 @@ margin: 0 24% 7.5em;
 /* Media Queries */
 /* Media Queries */
 @media only screen and (max-width: 800px) {
-    body {
-/*        background-color: aqua;*/
-    }
     .intro {
-        margin: 3em 12% 5em;
+        margin: 0 12%;
+        padding-top: 8em;
     }
     .skills {
-        margin: 0 12%;
+        margin: 6em 12%;
     }
     .skill {
         width: 100%;
         margin-bottom: 1.5em;
     }
     .projects {
-        margin: 5em 12%;
+        margin: 0 12% 3em;
     }
     .project {
         margin-bottom: 2.5em;
@@ -290,7 +292,14 @@ margin: 0 24% 7.5em;
     .nav-projects {
         padding: 4em 8%;
     }
-}
-@media only screen and (max-width: 480px) {
-  /* For mobile phones: */ 
+    .mail {
+        margin-left: 0;
+    }
+    .logo p { 
+        font-size: 1em;
+    }
+    .linkedin, .mail {
+        width: 1em;
+        height: 1em;
+    }
 }
