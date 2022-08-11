@@ -12,6 +12,6 @@
 ## Credits <a name="credits"></a>
 *Built & designed by Nia Cortes.*
 *Materials and references are property of:*
-*<a ref="https://base22.com/">Base22</a>*
-*<a ref="https://playful.mx/">Playful</a>*
+*Base22 / base22.com*
+*Playful / playful.mx*
 
