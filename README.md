@@ -1,7 +1,7 @@
 # Nia Cortes Portfolio Site
 
 ## Built with
-*Pure HTML, CSS and sweat. No additional requierements or setup other than a nice browser and access to Internet.*
+*Pure HTML, CSS and sweat. No additional requirements or setup other than a nice browser and access to Internet.*
 
 ## Recommended browser
 *Chrome Version 84, but really, any would suffice.*
@@ -11,4 +11,7 @@
 
 ## Credits <a name="credits"></a>
 *Built & designed by Nia Cortes.*
-*All materials and references are property of <a ref="https://base22.com/">Base22</a>.*
+*Materials and references are property of:*
+*<a ref="https://base22.com/">Base22</a>*
+*<a ref="https://playful.mx/">Playful</a>*
+

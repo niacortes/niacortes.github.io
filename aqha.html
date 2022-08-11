@@ -1,98 +1,90 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Nia Cortes Portfolio</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/98b88d4951.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/home/favicon.svg">
 </head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap');
+</style>
 <body>
-<div class="grid">
 <!--Main menu-->
-  <nav id="menu">
-   <div class="module desktop-6 tablet-12">
-      <div class="logo">
-        <div><a href="./index.html">NIA CORTES PORTFOLIO</a></div>
-      </div>
-      </div>
-    <div class="module desktop-6 tablet-12">
-      <div class="menu-item">
-      <div class=""><a href="./index.html#projects">Projects</a></div>
-     <div class=""> <a href="./index.html#community">Community</a></div>
-      <div class=""><a href="./index.html#contact">Contact</a></div>
-      <div class=""><a href="https://www.linkedin.com/in/niacortes/"><i class="fab fa-linkedin "></i></a></div>
-    <div class=""><a href="mailto:estefania.co@gmail.com?subject=Hi! I just visited your site!"><i class="fas fa-envelope "></i></a></div>
-      </div>
-    </div>
-     </nav>
+  <nav>
+        <div class="logo">
+            <p><a href="index.html">NIA CORTES PORTFOLIO</a></p>
+        </div>
+        <div class="menu">
+            <a href="https://www.linkedin.com/in/niacortes/"><span class="linkedin"></span></a>
+        </div>
+      <div class="menu">
+            <a href="https://www.linkedin.com/in/niacortes/"><span class="mail"></span></a>
+        </div>
+    </nav>
 <!--Main banner-->  
-	<div class="module desktop-12 tablet-12 left banner-project" id="">
-    <h2 class="heading2 ">AQHA Members Portal<br/>- User Dashboard</h2>
-    <div class="divider-left "></div>
-    <h3 class="heading3 ">The new digital experience of the AQHA (American Quarter Horse Association) Members Portal had recently launched and we could start with the second phase of the engagement: User Dashboard.<br/>
-The new section followed the recently created style guide and patterns, and we designed new widgets with all relevant and available user information.</h3>
+	<div class="intro">
+    <h1>AQHA Members Portal<br/>- User Dashboard</h1>
+        <br>
+    <p>The new digital experience of the AQHA (American Quarter Horse Association) Members Portal had recently launched and we could start with the second phase of the engagement: User Dashboard.<br/>
+The new section followed the recently created style guide and patterns, and we designed new widgets with all relevant and available user information.</p>
   </div>
-  <!--Details-->
-  <div class="module desktop-12 tablet-12 content" id="">
+  <!--content-->
+    <div class="content">
+<!--Details-->
+        <div class="block">
 	<div class="details">
-    <h5>Goal</h5>
+    <h3>Goal</h3>
     <p>A completely new online membership information, record library, and transactional portal for AQHA members.</p>
 	</div>
-  <div class="details">
-    <h5>My Role</h5>
-    <p>UI Designer</p>
+    <div class="details">
+    <h3>Technical requirements</h3>
+    <p>Built on Liferay Portal only for Desktop.</p>
   </div>
   <div class="details">
-    <h5>Activities</h5>
+    <h3>Activities</h3>
     <p><a href="#part1">1. Define user profiles</a></p>
     <p><a href="#part2">2. Wireframe</a></p>
     <p><a href="#part3">3. Mockups</a></p>
 	</div>
-  <div class="details">
-    <h5>Technical requirements</h5>
-    <p>Built on Liferay Portal only for Desktop.</p>
-  </div>
  </div>
   <!--part 1-->
-  <div class="module desktop-12 tablet-12 heading2 padding-10" id="part1">1. Define user profiles</div>
-	<div class="module desktop-12 tablet-12 summary">
-	  <p class="left">Based on the previous user research and the information that would be available on the portal, we created four different user profiles.<br/>
+        <div class="block">
+  <h3 id="part1">1. Define user profiles</h3>
+	  <p>Based on the previous user research and the information that would be available on the portal, we created four different user profiles.<br/>
 Each profile would be able to access relevant information related to them. An AQHA Member can be a mix of these profiles, that’s why we designed a user flow with a “super-user” in mind, to adjust to a reduced timeline.</p>
-    </div>
-  <div class="module desktop-12 tablet-12 padding-10">
-    <h4>Key member segments</h4>
-  </div>
-  <div class="module desktop-12 tablet-12 content">
-	<div class="details" id="">
+  <div class="block">
+      <h3>Key member segments</h3>
+	<div class="two-col">
     <div class="mini-header">
       <img class="icon" src="./img/aqha/icon-member.png">
       <h5 class="mini-title">Member</h5>
     </div>
     <p>Basic membership profile, they are not necessarily the owner of a horse or a participant of events.</p>
 	</div>
-  <div class="details" id="">
+  <div class="two-col">
     <div class="mini-header">
       <img class="icon" src="./img/aqha/icon-owner.png">
       <h5 class="mini-title">Owner</h5>
     </div>
     <p>Member with at least one horse registered under its name; they should be able to keep an inventory of registered horses, sign up horses to an event, and receive reports of their performance.</p>
 	</div>
-  <div class="details" id="">
+  <div class="two-col">
     <div class="mini-header">
       <img class="icon" src="./img/aqha/icon-breeder.png">
       <h5 class="mini-title">Breeder</h5>
     </div>
     <p>Members whose main job is to breed, raise, and sell horses; they need to keep track of their performance even after they have transferred ownership.</p>
 	</div>
-<div class="details" id="">
+<div class="two-col">
     <div class="mini-header">
       <img class="icon" src="./img/aqha/icon-showing.png">
       <h5 class="mini-title">Showing</h5>
     </div>
     <p>These Members participate mainly in events that showcase different skills of a horse; they need to be able to keep track of shows, points earned, leveling, and awards.</p>
 	</div>
-    <div class="details" id="">
+    <div class="two-col">
     <div class="mini-header">
       <img class="icon" src="./img/aqha/icon-racing.png">
       <h5 class="mini-title">Racing</h5>
@@ -100,53 +92,58 @@ Each profile would be able to access relevant information related to them. An AQ
     <p>Members that are actively participating in horse racing; they need to access racing calendars, leadership boards, money earned, and awards.</p>
 	</div>
  </div>
+            </div>
     <!--part 2-->
-   <div class="module desktop-12 tablet-12 heading2 padding-10" id="part2">2. Wireframe</div>
-	<div class="module desktop-12 tablet-12 summary">
-	  <p class="left">Following the established pattern for the AQHA portal, we created a basic wireframe that the front-end team could follow to develop a flexible template for all profiles.<br/>
+        <div class="block">
+   <h3 id="part2">2. Wireframe</h3>
+	  <p>Following the established pattern for the AQHA portal, we created a basic wireframe that the front-end team could follow to develop a flexible template for all profiles.<br/>
 Each section would be feed with some standard data and the user’s information according to their profile.</p>
-    </div>
-  <div class="module desktop-12 tablet-12 padding-10 margin-bottom-4">
+            <br>
     <div class="mockup">
-    <h5 class="margin-bottom-1">Master template</h5>
+    <h5>Master template</h5>
       <img class="mockup-img" src="./img/aqha/wireframe.png">
     </div>
   </div>
   <!--part 3-->
-   <div class="module desktop-12 tablet-12 heading2 padding-10" id="part3">3. Mockups</div>
-	<div class="module desktop-12 tablet-12 summary">
-	  <p class="left">The final design is a modular concept where each page will transform according to the user’s profile. These pages will be able to evolve in time as more services are available on the portal.</p>
-    </div>
-  <div class="module desktop-12 tablet-12 padding-10 margin-bottom-4">
+        <div class="block">
+   <h3 id="part3">3. Mockups</h3>
+	  <p>The final design is a modular concept where each page will transform according to the user’s profile. These pages will be able to evolve in time as more services are available on the portal.</p>
+            <br>
     <div class="mockup">
-    <h5 class="margin-bottom-1">My Account</h5>
+    <h5>My Account</h5>
       <img class="mockup-img" src="./img/aqha/MyAccount.png">
     </div>
     <div class="mockup">
-    <h5 class="margin-bottom-1">My Horses</h5>
+    <h5>My Horses</h5>
       <img class="mockup-img" src="./img/aqha/MyHorses.png">
     </div>
     <div class="mockup">
-    <h5 class="margin-bottom-1">My Activities</h5>
+    <h5>My Activities</h5>
       <img class="mockup-img" src="./img/aqha/MyActivities.png">
     </div>
     <div class="mockup">
-    <h5 class="margin-bottom-1">Resources</h5>
+    <h5>Resources</h5>
       <img class="mockup-img" src="./img/aqha/Resources.png">
     </div>
-  </div>
-  <!--Nav buttons-->
-<div class="module desktop-12 tablet-12 padding-10 margin-bottom-4">
-  <button class="secondary-btn left"><a href="./index.html">Home</a></button>
-  <button class="secondary-btn right"><a href="./cemex.html">Next Project</a></button>
+    </div>
+    
+</div><!--content ends-->
+    <!--Nav buttons-->
+<div class="nav-projects">
+    <a class="next-btn" href="./ups.html">Last Project</a>
+    <a class="next-btn menu" href="./cemex.html">Next Project</a>
 </div>
 <!--Footer-->
-<footer class="module desktop-12 tablet-12">
-  <div class="left">©2020 by Nia Cortes.</div>
-  <div class="right"><a href="#menu">Go up!</a></div>
+<footer>
+        <div class="" style="float: left;">
+            <p>Copyright © 2022 Nia Cortes. All Rights Reserved.</p>
+        </div>
+        <div class="menu">
+            <a href="https://www.linkedin.com/in/niacortes/"><span class="linkedin"></span></a>
+        </div>
+        <div class="menu">
+            <a href="mailto:estefania.co@gmail.com?subject=Hi! I just visited your site!"><span class="mail"></span></a>
+        </div>
 </footer>
-  </div><!--grid ends-->
-<!-- partial -->
-  
 </body>
 </html>
