@@ -141,7 +141,7 @@ nav .menu {
 }
 
 nav .menu+.menu {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .linkedin,
@@ -772,7 +772,7 @@ main.case-study {
   }
 
   nav .menu+.menu {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 
   .logo p a:hover::after,
